@@ -1,0 +1,116 @@
+body{
+  background-color: #577399;
+  position: relative;
+  color: #495867;
+  padding: 10%;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  background-image: url("../photos/cloud.png");
+  background-size: 30%;
+  background-repeat: repeat;
+  background-blend-mode: multiply;
+}
+
+h1{
+  color: #F7F7FF;
+  margin-top: 20%;
+  vertical-align: center;
+  width: 100%;
+}
+
+h3{
+  color: #F7F7FF;
+}
+
+#main-navbar{
+  background-color: #FE5F55;
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: #495867;
+  border-width: thick;
+  overflow: hidden;
+  background-image: url("../photos/fluffy.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+#navbar-container{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#main-navbar ul{
+  list-style-type: none;
+  margin: 5%;
+  display: inline-block;
+}
+
+#main-navbar ul li{
+  float: left;
+}
+
+#main-navbar ul li a{
+  display: block;
+  color: #F7F7FF;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: x-large;
+
+}
+
+#main-navbar ul li a:hover{
+  border-color: #495867;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+  background-color: #F7F7FF;
+  color: #FE5F55;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.textbox{
+  background-color: #BDD5EA;
+  border-color: #FE5F55;
+  border-radius: 25px;
+  border-width: medium;
+  border-style: solid;
+  padding: 5%;
+  height: auto;
+  text-align: center;
+  background-image: url("../photos/fluffy.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.caption{
+  color: #F7F7FF;
+  background-color:#495867;
+  border-color: #BDD5EA;
+  border-radius: 25px;
+  border-width: medium;
+  border-style: solid;
+  border-top-width: thick;
+  padding: 20px;
+  position: relative;
+  font-weight: normal;
+  background-image: url("../photos/fluffy.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.sizechange{
+  width: 350px;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+.nochange{
+  width: 500px;
+  position: relative;
+}
