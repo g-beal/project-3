@@ -96,6 +96,7 @@ img {
   border-style: solid;
   border-top-width: thick;
   padding: 20px;
+  font-weight: normal;
   position: relative;
   font-weight: normal;
   background-image: url("../photos/fluffy.png");
@@ -113,4 +114,60 @@ img {
 .nochange{
   width: 500px;
   position: relative;
+}
+
+@media (min-width: 2500px) {
+  .nochange{
+    width: 80%;
+  }
+
+  .caption{
+    border-radius: 30px;
+    border-style: double;
+    border-width: thick;
+    font-weight: bold;
+  }
+
+  h1{
+    font-weight: bold;
+  }
+
+  .textbox{
+    border-style: dotted;
+    border-width: thick;
+  }
+
+  #main-navbar{
+    border-width: thick;
+    border-style: dashed;
+    }
+}
+
+@media (max-width: 500px){
+  .nochange{
+    width: 80%;
+  }
+
+  .caption{
+    border-style: none;
+    background-image: none;
+  }
+
+  .sizechange{
+    width: 80%;
+  }
+
+  body{
+    background-image: none;
+    font-family: sans-serif;
+  }
+
+  .textbox{
+    background-image: none;
+  }
+
+  #main-navbar{
+    border-style: solid;
+    background-image: none;
+  }
 }

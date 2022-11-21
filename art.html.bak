@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project #2</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <nav id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href="index.html" title = "Resume">Resume</a></li>
+            <li><a href="cats.html" title = "Cats">Cats</a></li>
+            <li><a href="art.html" title = "Art">Art</a></li>
+            <li><a href="map.html" title = "Map">Map</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <h1>Some of my art!</h1>
+
+
+
+    <p class="textbox">I enjoy drawing and illustration&#46; Here are some drawings that I&#39;ve done over the past year&#33;</p>
+    <p class="textbox">I am quite a fan of the creature theme&#44; These pieces &#40;save the first&#44; which is acrylic paint on canvas&#41; are all ink and&#47;or watercolor on paper&#44;</p>
+    <img src="photos/art_photo_1.png" alt="A little guy in the woods" class = sizechange>
+    <img src="photos/art_photo_2.png" alt="A little guy drinking forbidden soup and seeing the secrets of the universe" class = sizechange>
+    <img src="photos/art_photo_3.png" alt="Four different little guys in different enviroments" class = sizechange>
+    <img src="photos/art_photo_4.png" alt="Two creatures watching a third" class = sizechange>
+    <img src="photos/art_photo_5.png" alt="A creature carrying a city on its back" class = sizechange>
+    <img src="photos/art_photo_6.png" alt="A cutout of a creature carrying a little guy on its back" class = sizechange>
+    <img src="photos/art_photo_7.png" alt="A little guy in the woods" class = sizechange>
+    <img src="photos/art_photo_8.png" alt="A creature drinking from a waterfall" class = sizechange>
+  </body>
+</html>
