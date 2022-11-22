@@ -118,12 +118,13 @@ img {
 
 #map{
   width: 80%;
-  height: 300px;
-  border-radius: 25px;
+  height: 500px;
+
   border-color: #FE5F55;
   border-width: thick;
   border-style: dotted;
   margin: 20px;
+}
 }
 
 @media (min-width: 2500px) {
